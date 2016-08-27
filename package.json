@@ -13,6 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "xo && nyc ava"
   },
   "files": [
@@ -24,7 +25,9 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.2",
+    "eslint-plugin-react": "^6.1.2",
     "nyc": "^7.1.0",
+    "socket.io": "^1.4.8",
     "xo": "^0.16.0"
   },
   "xo": {
