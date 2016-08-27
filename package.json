@@ -1,0 +1,33 @@
+{
+  "name": "smasketch-server",
+  "version": "0.0.0",
+  "description": "SmaSketch node socket server",
+  "license": "MIT",
+  "repository": "elzup/smasketch-server",
+  "author": {
+    "name": "elzup",
+    "email": "guild0105@gmail.com",
+    "url": "elzup.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.1.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
