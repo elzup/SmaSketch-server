@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "xo && nyc ava"
+    "test": "ava --tap | tap-nyan"
   },
   "files": [
     "index.js"
@@ -25,12 +25,10 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.15.2",
+    "eslint-plugin-ava": "^3.0.0",
     "eslint-plugin-react": "^6.1.2",
     "nyc": "^7.1.0",
     "socket.io": "^1.4.8",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
+    "tap-nyan": "0.0.2"
   }
 }

@@ -31,5 +31,5 @@ io.sockets.on('connection', (socket) => {
 	socket.on('disconnect', () => {
 		console.log('disconnect: ' + _id)
 		socket.broadcast.emit('remove', _id)
-	});
+	})
 })
