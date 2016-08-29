@@ -1,4 +1,4 @@
-# smasketch-server [![Build Status](https://travis-ci.org/elzup/smasketch-server.svg?branch=master)](https://travis-ci.org/elzup/smasketch-server)
+# smasketch-server [![Build Status](https://travis-ci.org/elzup/SmaSketch-server.svg?branch=master)](https://travis-ci.org/elzup/SmaSketch-server)
 
 > SmaSketch node socket server
 
