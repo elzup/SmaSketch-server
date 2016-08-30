@@ -13,6 +13,11 @@ io.sockets.on('connection', socket => {
 		socket.broadcast.emit('new:sub', data)
 	})
 
+	socket.on('new:sub:sync', (data) => {
+		console.log(data)
+		socket.to(data.id).emit('new:sub:sync', data)
+	})
+
 	socket.on('draw', data => {
 		console.log(data)
 		socket.broadcast.emit('draw', data)
