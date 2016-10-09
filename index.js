@@ -1,6 +1,7 @@
 'use strict'
 
-const io = require('socket.io')(8080)
+const port = parseInt(process.argv[1]) || 8080
+const io = require('socket.io')(port)
 
 io.sockets.on('connection', socket => {
 	console.log('new connection: ' + socket.id)
